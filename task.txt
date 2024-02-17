@@ -1,0 +1,21 @@
+REST API -JSON (We are creating rest api to support json)
+
+creating hybride server. api me json data and user me html document
+
+GET/users - HTML Document reader for browser
+GET /api/user - List all user json -->Done agr phone pe dekhe
+
+
+GET/api/user/1 - Get the user with ID 1
+GET /api/user/2 - Get the user with ID 2
+
+Dynamic path parameters
+GET /api/users/:id
+:id ->variable | Dynamic
+
+POST /api/users - create new user
+
+PATCH /api/users/1 - Edit the user wit ID 1
+
+DELETE /api/users/1 - Delete the user with ID 1
+
